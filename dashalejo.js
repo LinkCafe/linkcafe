@@ -81,7 +81,7 @@ var barChartOptions = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["Teclado", "Laptop", "Monitor", "Mouse", "Parlante"],
+    categories: ["Café arabigo", "Cafe robusta", "Cafe liberica", "Cafe excelsa", "Cafe espresso"],
     title: {
       style: {
         color: "#f5f7ff",
