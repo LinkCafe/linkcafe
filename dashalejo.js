@@ -18,7 +18,7 @@ function closeSidebar() {
 
 var barChartOptions = {
   series: [{
-    data: [12, 9, 6, 4, 2],
+    data: [20, 14, 8, 5, 2],
     name: "Productos",
   }],
   chart: {
