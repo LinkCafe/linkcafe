@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #151515;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+}
+
+.main-menu {
+    border-right: .5px solid rgba(128, 128, 128, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.logo {
+    border-bottom: .5px solid rgba(128, 128, 128, 0.25);
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+    gap: 40px;
+}
+
+.nav-item {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item i {
+    width: 10px;
+    color: gray;
+}
+
+.nav-item a {
+    color: gray;
+    font-size: 1em;
+}
+
+.nav-item i.active {
+    color: rgb(10, 207, 10);
+}
+
+.nav-item a.active {
+    color: white;
+}
+
+.interaccion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 40px 0;
+}
+
+.interaccion div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.interaccion div a {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+header section .profile {
+    display: flex;
+    gap: 20px;
+}
+
+header section .profile p {
+    display: flex;
+    gap: 10px;
+}
+
+.section-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content .card {
+    padding: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.502);
+    border-radius: 12px;
+}
+
+.section-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-content form .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section-content form .row input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff4a;
+    color: white;
+}
+
+.section-content form .row input::placeholder {
+    color: rgb(211, 211, 211);
+}
+
+.section-content form button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.section-content form button:hover {
+    background-color: rgb(181, 181, 181);
+    transition: 1s all ease;
+    color: white;
+}
