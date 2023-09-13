@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Cafe | Dashboard Diego</title>
-    <link rel="stylesheet" href="./css/dashDiego.css">
+    <link rel="stylesheet" href="../css/dashDiego.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,14 +18,14 @@
                 Link Cafe
             </div>
             <div class="nav-item">
-                <i class="fa-solid fa-chart-simple active"></i>
-                <a href="" class="active">Registro</a>
+                <i class="fa-solid fa-chart-simple"></i>
+                <a href="./dashDiego.html">Registro</a>
             </div>
             <div class="nav-item">
-                <i class="fa-solid fa-briefcase"></i>
-                <a href="">Iniciar Sesión</a>
+                <i class="fa-solid fa-briefcase active"></i>
+                <a href="./dashDiegoLogin.html" class="active">Iniciar Sesión</a>
             </div>
-            <div class="nav-item">
+            <!-- <div class="nav-item">
                 <i class="fa-regular fa-user"></i>
                 <a href="">Customers</a>
             </div>
@@ -40,7 +40,7 @@
             <div class="nav-item">
                 <i class="fa-solid fa-gear"></i>
                 <a href="">Settings</a>
-            </div>
+            </div> -->
         </nav>
         <div class="interaccion">
             <div>
@@ -52,18 +52,31 @@
     </div>
     <div class="content">
         <header>
-            <h1>Bienvenido de nuevo, Diego</h1>
-            <section>
+            <h1>Bienvenido de nuevo</h1>
+            <!-- <section>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-bell"></i>
                 <div class="profile">
                     <i class="fa-regular fa-user"></i>
                     <p>Diego Duran <i class="fa-solid fa-arrow-down"></i></p>
                 </div>
-            </section>
+            </section> -->
         </header>
         <div class="section-content">
-            
+            <div class="card">
+                <h2>Iniciar Sesión</h2>
+                <form action="">
+                    <div class="row">
+                        <label for="">Correo</label>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div class="row">
+                        <label for="">Contraseña</label>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <button>Iniciar Sesión</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
