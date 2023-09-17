@@ -1,54 +1,69 @@
 *{
+    margin: 0;
     padding: 0;
-    margin:0;
+    font-family: sans-serif;
 }
 body{
-    background-image: url(../linkcafe/img/imagen1.png);
+    background-image: url(./imagenes/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-.img{
-    border-radius: 50%;
-}
-.main{
-    background-color: rgb(18, 99, 99);
-    width: 300px;
-    height:200px;
-    position: relative;
-    top: 250px;
-    left: 70vh;
-    border-radius: 10px;
-    box-shadow: 0.3 gray;
-}
-h1{
-    font-family: sans-serif 'Courier New', Courier, monospace;
-    font-size: 23px;
-    color: rgb(82, 77, 77);
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
-h2{
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-}
-input{
-    position: relative;
-    left: 64px;
+  
+  .login-form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color:black;
+    height: 430px
+  }
+  
+  
+  .login-form input {
+    width: 85%;
+    margin-bottom: 80px;
+    padding: 10px;
+    border:none;
+    border-bottom: 1px whitesmoke solid;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .login-form input:focus{
+outline: none;
+  }
+  .login-form input::placeholder{
+    color: white;
+    
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
     border: none;
-    border-bottom: 4px black;
-    background-color: transparent;
-}
-p{
-   text-align: center;
-   color: rgb(120, 28, 28);
-}
-button{
-    width: 80px;
-    height: 20px;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 12vh;
-}
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  h1{
+    color: #fff;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
