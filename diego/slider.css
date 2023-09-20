@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+.page-box-slider {
+    width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 50px);
+}
+
+#box-slider {
+    z-index: 2;
+}
+
+.page-box-slider > .box-slider {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vh - 50px);
+    position: relative;
+    transition: .5s all ease;
+}
+
+.page-box-slider > .box-slider-1 {
+    left: 0;
+}
+.page-box-slider > .box-slider-2 {
+    left: -100%;
+}
+.page-box-slider > .box-slider-3 {
+    left: -200%;
+}
+.page-box-slider > .box-slider-4 {
+    left: -300%;
+}
+
+.page-box-slider > .box-slider > div {
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.page-box-slider > .box-slider > div > img {
+    width: 100%;
+    height: calc(100vh - 50px);
+    object-fit: cover;
+}
+
+.page-box-slider > .rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    padding: 0 50px 0 50px;
+    top: calc((-100vh + 50px) + 50%);
+    overflow: hidden;
+}
+
+.rows > i {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
