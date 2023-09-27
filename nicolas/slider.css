@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
+    background: url(./imagenes/fondo/fondos-de-pantalla-4k-scaled.jpg);
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -33,10 +32,27 @@ img {
     height: auto;
 }
 
-.nav {
+.nav-button {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.nav-button-1 {
+    float: right;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 
