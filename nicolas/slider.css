@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(./imagenes/fondo/fondos-de-pantalla-4k-scaled.jpg);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.slider {
+    position: relative;
+    max-width: 800px;
+}
+
+.slide {
+    flex: 0 0 100%;
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #333; 
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-button {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-button-1 {
+    float: right;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
